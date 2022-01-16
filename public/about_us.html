@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  }
+.navigation-anchors{
+
+
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+header{
+
+    
+    height:10vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+
+}
+
+body{
+
+    background-image: url('https://wallpapercave.com/wp/wp6819293.jpg');
+    background-size: 100%;
+}
+
+.anchors-div{
+    text-transform: uppercase;
+position: relative;
+z-index: 10;
+height: 10vh;
+
+
+    display: flex;
+    flex-direction: row;
+    
+    align-content:space-between;
+    align-items: center;
+
+}
+
+.site-img{
+    
+    margin-left: 25px;
+    margin-right: 39px;
+    height: 164%;
+    margin-top: 13px;
+}
+
+button:hover{
+
+
+    opacity: 75%;
+    transition:opactiy 0.3s
+}
+button{
+
+    
+    transition:opactiy 1s
+}
+.btn{
+
+    position: absolute;
+    right: 67px;
+    width: 74px;
+height: 28px;
+border-radius: 99999px;
+border: none;
+background-color: #FF0000;
+}.btn2{
+
+position: absolute;
+right: 153px;
+
+}
+.container{
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 100%;
+    justify-content: center;
+    margin-top:10px;
+}
+
+
+.content-div {
+    border: solid white;
+    width: 281px;
+    height: 401px;
+    border-radius: 10px;
+margin-right: 10px;
+margin-bottom:10px;
+transition: transform 0.3s;
+padding: 10px;
+z-index: 10;
+}
+.content-div:hover{
+
+
+    transform: translateY(-1.5px);
+    transition: transform 0.3s;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <header >
+        <div class = "anchors-div">
+            <img style="z-index: -1;" class = "site-img"src="https://lh3.googleusercontent.com/JgypECL3xlXzJxb7qrjBgxHeYr6pPRTMX6y9HPoRtbl8DuRZ6trrk7TAA6tHFHV05sRIuwCF7zVnaBhvtNrkuDAMcvV6h_gBJjpAhii0giCt7ltXivgjjXW3X08FWIssdnzI3LSPO3pWDlu9h_SLAHitouuMyX7okw1Nq36fPOeemcTvXMTP_D4vN-Ic0vkwoUeaD2FQb_jyvpDdSung7qNpJSJCAjronGPnQTtedoRXfcPeMdZ0HEThVCnhUXHUL4xf11Sphso33bbaNNbXvHzS-4rt9asN3J7WfgHoBZeC_fROfyowXcOe0k-rvVLmPgoSljqV7qagB76kP7LmMs_70lVU-YlORC_rQCIrrmCRUB4uO_ZdSGHjz0luke0YCPJV3pCXuUhIWiwjqy5kBxQoA0NnmJUITHR-ioexw-nJ1fHnTfxu9xVEatnVmAO0yEIfaDvpYOoWSKPILEqr4hSLkvWWZC2lEinRnPtQjpBFwh2KRyaLx2xC-qSJoq-ScVJHR9b8XScrmobL3N2MADU61oPG59HRcZTuBwvVmU9erVyYTWlYWYz9S0ZDbfIGByyuix9CRtpV1rhF3HaR1kBousvBHvTKpFeOUyHQeuE9l6d9oWpi3A-EktIilFDaBtZ9bp0JNTPPMZHFocXgfRNgTMingysrWx_c8gQ6eEtFRYdarGi-Yd8Al31ccBSKbPfa6cLNz3Mepm_x-xD8BUc=w888-h878-no?authuser=0" alt="Sit Logo">
+        <a class = "navigation-anchors"  href="#Home">Home</a>
+        <a class = "navigation-anchors"  href="#About Us">About Us</a>
+        <a class = "navigation-anchors"  href="#Contact Us">Contact Us</a>
+        </div>
+        
+        <a href="http://localhost:3001/login"><button class ="btn2" style="width: 61px; height: 23px;border-radius: 2px;border:none;background-color: #5AFF15
+        ;">Login</button></a>
+        <a href="http://localhost:3001/sign-up"><button class = "btn">Sign Up</button></a>
+        
+            </header>
+<div class="container">
+
+
+
+    <div  class = "content-div"><h1 style="color: white">What we made</h1><br><p style = "color:white;">We made a Bulletin Board system called E-Board. It's a way for someone to create a bulletin board for a club or school and post stuff related or un-related on it.</p></div>
+    <div class = "content-div"><h1 style="color: white">The Troubles we faced</h1><p style = "color:white;">We had a bit of trouble at the beggining with the fs.writeFileSync but it quickly got fixed but then at the end we were reall having trouble and ultimately our code started to really mess up, but we created a nice product.</p></div>
+    <div class = "content-div"><h1 style="color:white">About Us: Arman Akbari</h1><p style = "color:white">Arman Akbari is half of this amazing bulletin project. In the MEN Stack we created, he was the pro behind the Node and Express. He goes to Ancaster High School in Ontario and is in grade 9.</p></div>
+    <div class = "content-div"><h1 style="color:white">About Us: Uzair Sowdagar</h1><p style = "color:white;">This kid is a genius at Mongo DB. He was the mastermind behind the server and getting connected with mongoose etc. He also goes to Ancaster High, lives in Ontario, and is in grade 9.</p></div>
+
+ 
+</div>
+
+    
+</body>
+</html>
